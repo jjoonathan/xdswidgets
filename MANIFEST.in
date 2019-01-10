@@ -1,0 +1,2 @@
+recursive-include xdswidgets/static *.*
+include xdswidgets.json
