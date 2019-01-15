@@ -1,44 +1,38 @@
-xdswidgets
-===============================
+Miscellaneous jupyterlab widgets for data science. So far, it only contains a single widget, the SelectableImageView.
 
-Miscellaneous widgets for data science.
+SelectableImageView displays an image and lets you:
+* Draw rectangles (left-drag)
+* Delete rectangles (left-click on a rectangle)
+* Plant crosshair (left-click)
+  * Up to two crosshairs are visible (one from the last click, one from second-to-last click)
+* Delete crosshair (double-click)
+* Programatically access, mutate, and receive events on the above properties 
 
-Installation
-------------
+Package Install
+---------------
 
-To install use pip:
-
-    $ pip install xdswidgets
-    $ jupyter nbextension enable --py --sys-prefix xdswidgets
-
-
-For a development installation (requires npm),
-
-    $ git clone https://github.com/jjoonathan/xdswidgets.git
-    $ cd xdswidgets
-    $ pip install -e .
-    $ jupyter nbextension install --py --symlink --sys-prefix xdswidgets
-    $ jupyter nbextension enable --py --sys-prefix xdswidgets
-
-## Installation - JupyterLab
+**Prerequisites**
+- Conda: python3.6 jupyterlab numpy numba pillow nodejs
+- NPM: yarn
 
 ```bash
-jupyter labextension install xdswidgets
+pip install .  # Run in root of repo.
+cd js
+yarn install      # Like npm install; download deps into node_modules
+jupyter labextension install .
 ```
 
-## Development - JupyterLab
 
-For a development install (requires npm version 4 or later), do the following in the repository directory:
+Development Install
+-------------------
 
-```bash
-npm install
-npm run build
-jupyter labextension link .
-```
-
-To rebuild the package and the JupyterLab app:
+**Resources**
+- [Jupyterlab XKCD Extension Tutorial](https://jupyterlab.readthedocs.io/en/stable/developer/xkcd_extension_tutorial.html)
 
 ```bash
-npm run build
-jupyter lab build
+pip install -e .  # -e = editable. Run in root of repo.
+cd js
+jlpm install      # Like npm install; download deps into node_modules
+jupyter labextension install . --no-build
+jupyter lab --watch
 ```
