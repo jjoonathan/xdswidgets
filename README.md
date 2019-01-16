@@ -12,8 +12,11 @@ Package Install
 ---------------
 
 **Prerequisites**
-- Conda: python3.6 jupyterlab numpy numba pillow nodejs
-- NPM: yarn
+
+* Conda: python3.6 jupyterlab numpy numba pillow nodejs
+* NPM: yarn
+
+**Steps**
 
 ```bash
 pip install .  # Run in root of repo.
@@ -27,7 +30,10 @@ Development Install
 -------------------
 
 **Resources**
-- [Jupyterlab XKCD Extension Tutorial](https://jupyterlab.readthedocs.io/en/stable/developer/xkcd_extension_tutorial.html)
+
+* [Jupyterlab XKCD Extension Tutorial](https://jupyterlab.readthedocs.io/en/stable/developer/xkcd_extension_tutorial.html)
+
+**Steps**
 
 ```bash
 pip install -e .  # -e = editable. Run in root of repo.
