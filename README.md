@@ -1,10 +1,11 @@
 Miscellaneous jupyterlab widgets for data science. So far, it only contains a single widget, the SelectableImageView.
 
 SelectableImageView displays an image and lets you:
+
 * Draw rectangles (left-drag)
 * Delete rectangles (left-click on a rectangle)
 * Plant crosshair (left-click)
-  * Up to two crosshairs are visible (one from the last click, one from second-to-last click)
+    * Up to two crosshairs are visible (one from the last click, one from second-to-last click)
 * Delete crosshair (double-click)
 * Programatically access, mutate, and receive events on the above properties 
 
