@@ -136,7 +136,7 @@ setup_args = {
             'xdswidgets/static/index.js',
             'xdswidgets/static/index.js.map',
         ],),
-        ('etc/jupyter/nbconfig/notebook.d/' ,['xdswidgets.json'])
+        ('etc/jupyter/nbconfig/notebook.d' ,['xdswidgets.json'])
     ],
     'install_requires': [
         'ipywidgets>=7.0.0',
@@ -151,8 +151,8 @@ setup_args = {
     },
 
     'author': 'Jonathan deWerd',
-    'author_email': 'jjoonathan@gmail.com',
-    'url': 'https://github.com/jjoonathan/xdswidgets',
+    'author_email': 'Jonathan.deWerd@xyleminc.com',
+    'url': 'https://bitbucket.org/sensusanalytics-dev/xdswidgets/src/master/',
     'keywords': [
         'ipython',
         'jupyter',

@@ -1,4 +1,6 @@
-Miscellaneous jupyterlab widgets for data science. So far, it only contains a single widget, the SelectableImageView.
+XDS Widgets
+---------------
+Miscellaneous jupyterlab widgets for data science.
 
 SelectableImageView displays an image and lets you:
 * Draw rectangles (left-drag)
@@ -12,6 +14,7 @@ Package Install
 ---------------
 
 **Prerequisites**
+
 - Conda: python3.6 jupyterlab numpy numba pillow nodejs
 - NPM: yarn
 
@@ -27,6 +30,7 @@ Development Install
 -------------------
 
 **Resources**
+
 - [Jupyterlab XKCD Extension Tutorial](https://jupyterlab.readthedocs.io/en/stable/developer/xkcd_extension_tutorial.html)
 
 ```bash
