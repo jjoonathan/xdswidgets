@@ -3,10 +3,11 @@ XDS Widgets
 Miscellaneous jupyterlab widgets for data science.
 
 SelectableImageView displays an image and lets you:
+
 * Draw rectangles (left-drag)
 * Delete rectangles (left-click on a rectangle)
 * Plant crosshair (left-click)
-  * Up to two crosshairs are visible (one from the last click, one from second-to-last click)
+    * Up to two crosshairs are visible (one from the last click, one from second-to-last click)
 * Delete crosshair (double-click)
 * Programatically access, mutate, and receive events on the above properties 
 
@@ -15,8 +16,10 @@ Package Install
 
 **Prerequisites**
 
-- Conda: python3.6 jupyterlab numpy numba pillow nodejs
-- NPM: yarn
+* Conda: python3.6 jupyterlab numpy numba pillow nodejs
+* NPM: yarn
+
+**Steps**
 
 ```bash
 pip install .  # Run in root of repo.
@@ -31,7 +34,9 @@ Development Install
 
 **Resources**
 
-- [Jupyterlab XKCD Extension Tutorial](https://jupyterlab.readthedocs.io/en/stable/developer/xkcd_extension_tutorial.html)
+* [Jupyterlab XKCD Extension Tutorial](https://jupyterlab.readthedocs.io/en/stable/developer/xkcd_extension_tutorial.html)
+
+**Steps**
 
 ```bash
 pip install -e .  # -e = editable. Run in root of repo.
